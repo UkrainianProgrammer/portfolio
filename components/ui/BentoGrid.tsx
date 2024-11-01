@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["NextJS", "TailwindCSS", "Typescript"];
+  const rightLists = ["Python", "Docker", "PostgreSQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -138,7 +138,10 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {id === 2 && <GridGlobe />}
+          {/* {id === 2 && <GridGlobe />} */}
+          {/* {id === 2 && (
+            <div className="flex gap-1 lg:gap-5 w-fit absolute" />
+          )} */}
 
           {/* Tech stack list div */}
           {id === 3 && (
