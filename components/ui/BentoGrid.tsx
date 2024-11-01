@@ -9,9 +9,9 @@ import { cn } from "@/lib/utils";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
+import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
-import MagicButton from "../MagicButton";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -68,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "olek7dev@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -138,7 +138,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {id === 2 && <GlobeDemo />}
+          {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
           {id === 3 && (
