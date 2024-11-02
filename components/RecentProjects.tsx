@@ -1,6 +1,6 @@
 import { projects } from '@/data'
 import React from 'react'
-import { PinContainer } from './ui/3d-pin'
+import { PinContainer } from './ui/PinContainer'
 
 const RecentProjects = () => {
   return (
@@ -19,8 +19,18 @@ const RecentProjects = () => {
                 link
             }) => (
                 <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]'>
-                    <PinContainer>
-                        {title}
+                    <PinContainer title={title} href={link}>
+                        <div className='relative flex items-center justify-center sm:w-96 w-[80vw]
+                            overflow-hidden h-[20vh]'>
+                            <div>
+                                <img src='/bg.png' alt='bg.png'/>
+                            </div>
+                            <img
+                                src={img}
+                                alt={title}
+                                className='z-10 absolute bottom-0'
+                            />
+                        </div>
                     </PinContainer>
                 </div> 
             ))}
