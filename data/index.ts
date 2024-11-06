@@ -74,6 +74,7 @@ export const gridItems = [
 // TODO
 export const projects = [
   {
+    // bookstore
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
@@ -153,7 +154,7 @@ export const companies = [
     nameImg: "/streamName.svg",
   },
   {
-    // Docker
+    // TODO: Postgresql
     id: 5,
     name: "docker.",
     img: "/dock.svg",
