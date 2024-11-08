@@ -131,9 +131,9 @@ export const companies = [
   {
     // TODO: MS Azure
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Microsoft Azure",
+    img: "/azure.svg",
+    nameImg: "/azureName.svg",
   },
   {
     // k8s
