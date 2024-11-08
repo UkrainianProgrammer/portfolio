@@ -25,8 +25,8 @@ const Grid = () => {
             {companies.map(({id, img, name, nameImg}) => (
                 <div key={id} className='flex md:max-w-60
                     max-w-30 gap-2'>
-                        <img src={img} alt={name} className='md:w-10 w-5' />
-                        <img src={nameImg} alt={name} className='md:w-21 w-15' />
+                        <img src={img} alt={name} className='md:w-16 w-5' />
+                        {/* <img src={nameImg} alt={name} className='md:w-21 w-15' /> */}
                 </div>
             ))}
         </div>

@@ -129,39 +129,30 @@ export const testimonials = [
 
 export const companies = [
   {
-    // TODO: MS Azure
     id: 1,
     name: "Microsoft Azure",
-    img: "/azure.svg",
-    nameImg: "/azureName.svg",
+    img: "/azure.svg"
   },
   {
     // k8s
     id: 2,
     name: "k8s",
-    img: "/k8s.svg",
-    nameImg: "/k8sName.svg",
+    img: "/k8s.svg"
   },
   {
-    // TODO: Flask
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Docker",
+    img: "/dock.svg"
   },
   {
-    // TODO: NextJS
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "NextJS",
+    img: "/next.svg"
   },
   {
-    // TODO: Postgresql
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "PostgreSQL",
+    img: "/postgresql.svg"
   },
 ];
 
@@ -170,9 +161,9 @@ export const workExperience = [
     //TODO: Viasat's internshop but make it last
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Designed, developed, and deployed a cross-platform mobile application written in React Native which is still being used today by 150,000+ customers.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/viasat.svg",
   },
   {
     // TODO: Current Position
