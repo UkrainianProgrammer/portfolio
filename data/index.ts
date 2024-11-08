@@ -76,8 +76,8 @@ export const projects = [
   {
     // bookstore
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Bookstore App",
+    des: "Browse books from various authors, complete purchases, and more. Admins get special access to analytical insights.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/UkrainianProgrammer/bookstore",

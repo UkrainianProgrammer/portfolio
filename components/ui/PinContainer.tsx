@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export const PinContainer = ({
   children,
@@ -36,6 +36,7 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      href={href || "/"}
     >
       <div
         style={{
