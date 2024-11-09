@@ -1,7 +1,8 @@
-import { projects } from '@/data'
+import { projects, companies } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/PinContainer'
 import { FaLocationArrow } from 'react-icons/fa'
+import Link from 'next/link'
 
 const RecentProjects = () => {
   return (
@@ -31,7 +32,7 @@ const RecentProjects = () => {
                             <img
                                 src={img}
                                 alt={title}
-                                className='z-10 absolute bottom-0'
+                                className='z-10 absolute bottom-0 lg:rounded-3xl'
                             />
                         </div>
                         <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
@@ -62,6 +63,25 @@ const RecentProjects = () => {
                     </PinContainer>
                 </div> 
             ))}
+        </div>
+        <div className='md:mt-10'>
+            <h1 className="sub-heading">
+                <span className='text-purple'>Technologies</span>
+                {' '} I frequently use in my projects
+            </h1>
+            <div className='flex flex-wrap items-center justify-center mt-5 mb-5 gap-4 md:gap-16 max-lg:mt-10'>
+                {companies.map(({id, img, name, link}) => (
+                    <div key={id} className='flex md:max-w-60
+                        max-w-30 gap-2'>
+                            <Link
+                            href={link || "/"}
+                            target="_blank"
+                            >
+                                <img src={img} alt={name} className='md:w-16 w-5' />
+                            </Link>
+                    </div>
+                ))}
+            </div>
         </div>
     </div>
   )

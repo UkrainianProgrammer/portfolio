@@ -78,8 +78,8 @@ export const projects = [
     id: 1,
     title: "Bookstore App",
     des: "Browse books from various authors, complete purchases, and more. Admins get special access to analytical insights.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/bookstore.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/expressjs.svg", "/mongo.svg"],
     link: "https://github.com/UkrainianProgrammer/bookstore",
   },
   {
@@ -131,28 +131,33 @@ export const companies = [
   {
     id: 1,
     name: "Microsoft Azure",
-    img: "/azure.svg"
+    img: "/azure.svg",
+    link: "https://azure.microsoft.com/"
   },
   {
     // k8s
     id: 2,
     name: "k8s",
-    img: "/k8s.svg"
+    img: "/k8s.svg",
+    link: "https://kubernetes.io/"
   },
   {
     id: 3,
     name: "Docker",
-    img: "/dock.svg"
+    img: "/dock.svg",
+    link: "https://www.docker.com/"
   },
   {
     id: 4,
     name: "NextJS",
-    img: "/next.svg"
+    img: "/next.svg",
+    link: "https://nextjs.org/"
   },
   {
     id: 5,
     name: "PostgreSQL",
-    img: "/postgresql.svg"
+    img: "/postgresql.svg",
+    link: "https://www.postgresql.org/"
   },
 ];
 
