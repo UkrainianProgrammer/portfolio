@@ -85,10 +85,10 @@ export const projects = [
   {
     // market
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "Online Market",
+    des: "Purchase items online from the available inventory and sell them at any time.",
+    img: "/market.png",
+    iconLists: ["/python.svg", "/bootstrap.svg", "/sqlalchemy.svg", "/flask.png"],
     link: "https://github.com/UkrainianProgrammer/Market",
   },
   {
