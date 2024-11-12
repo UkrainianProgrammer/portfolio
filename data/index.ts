@@ -71,7 +71,6 @@ export const gridItems = [
   },
 ];
 
-// TODO
 export const projects = [
   {
     // bookstore
@@ -94,19 +93,19 @@ export const projects = [
   {
     // video2mp3
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Video 2 MP3 Converter",
+    des: "A microservice application that converts video to an MP3 file and stores it in a MongoDB database.",
+    img: "/video2mp3.png",
+    iconLists: ["/k8s.svg", "/flask.png", "/mongo.svg", "/dock.svg", "/nginx.svg"],
     link: "https://github.com/UkrainianProgrammer/video2mp3",
   },
   {
-    // TODO-API
+    // API
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "TODO API",
+    des: "RESTful API to allow users to manage their to-do list efficiently.",
+    img: "/todo.png",
+    iconLists: ["/python.svg", "/postgresql.svg", "/dock.svg", "/flask.png"],
     link: "https://github.com/UkrainianProgrammer/TODO-API",
   },
 ];
@@ -197,14 +196,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/UkrainianProgrammer"
   },
   {
-    // TODO: Airbnb
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/oleksandr-sofishchenko/"
   },
 ];
