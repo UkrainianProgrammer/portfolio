@@ -162,38 +162,35 @@ export const companies = [
 ];
 
 export const workExperience = [
+
   {
-    //TODO: Viasat's internshop but make it last
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Designed, developed, and deployed a cross-platform mobile application written in React Native which is still being used today by 150,000+ customers.",
+    title: "Back-end Software Engineer",
+    desc: "Developed and maintained a scalable RESTful API serving as the backbone for multiple front-end applications utilized by over 3,000 customers along the United States-Mexico border.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/tti_dark.png",
+  },
+  {
+    id: 2,
+    title: "Software Engineer",
+    desc: "Spearheaded the development the development of the distributed MAC layer applications written in C/C++ and Python and deployed as Docker containers in Linux environment.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/viasat.svg",
+  },
+  {
+    id: 3,
+    title: "Associate Product Owner",
+    desc: "Successfully utilized Agile methodology in roadmap planning for the communications link between the data center and the satellite fleet.",
     className: "md:col-span-2",
     thumbnail: "/viasat.svg",
   },
   {
-    // TODO: Current Position
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    // TODO: Viasat's software engineering position
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    // TODO: Viasat's leadership position
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Engineer Intern",
+    desc: "Designed, developed, and deployed a cross-platform mobile application written in React Native which is still being used today by 150,000+ customers.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    thumbnail: "/viasat.svg",
+  }
 ];
 
 export const socialMedia = [
